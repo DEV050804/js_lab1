@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px; /* Increased max-width for better readability on larger screens */
+    margin: 20px auto; /* Added top margin for better spacing */
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+div {
+    margin-bottom: 30px; /* Increased bottom margin for better spacing */
+}
+
+label {
+    display: block;
+    margin-top: 15px;/* Adjusted top margin for better spacing */
+    margin-bottom: 10px; /* Adjusted bottom margin for better spacing */
+    color: #333;
+}
+
+input {
+    width: calc(100% - 20px); /* Adjusted width and padding for better appearance */
+    padding: 12px;
+    box-sizing: border-box;
+    margin-bottom: 20px; /* Increased bottom margin for better spacing */
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+button {
+    padding: 14px 28px; /* Slightly increased padding for a more comfortable button size */
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#story {
+    font-size: 18px;
+    line-height: 1.6; /* Adjusted line-height for better readability */
+    color: #333;
+    margin-top: 30px; /* Increased top margin for better spacing */
+}
